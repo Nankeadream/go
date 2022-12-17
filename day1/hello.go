@@ -4,5 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println("hello")
-	fmt.Println()
+	a := 100
+	fmt.Printf("a: %v\n", a)
 }
