@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello")
-	fmt.Println()
+	a := 50
+	fmt.Printf("%c", a)
 }
