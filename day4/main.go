@@ -272,14 +272,43 @@ func ds() {
 }
 
 func test() {
-	arr := [...]int{1, 4, 9, 16, 2, 5, 10, 15}
-	s := make([]int, len(arr)-1)
-	fmt.Printf("%d,%v\n", len(arr), arr)
-	fmt.Printf("%d,%v\n", len(s), s)
-	for i := 0; i < len(s); i++ {
-		s[i] = arr[i] + arr[i+1]
-	}
-	fmt.Println(s)
+	//arr := [...]int{1, 4, 9, 16, 2, 5, 10, 15}
+	//s := make([]int, len(arr)-1)
+	//fmt.Printf("%d,%v\n", len(arr), arr)
+	//fmt.Printf("%d,%v\n", len(s), s)
+	//for i := 0; i < len(s); i++ {
+	//	s[i] = arr[i] + arr[i+1]
+	//}
+	//fmt.Println(s)
+	//s := make([]int, 256, 256)
+	//fmt.Println(len(s), cap(s), s)
+	//s = append(s, 1)
+	//fmt.Println(len(s), cap(s), s)
+
+	//s1 := [5]int{10, 30, 50, 70, 90}
+	//s2 := s1
+	//fmt.Printf("s1 %p |%p,%d %d|,%v\n", &s1, &s1[0], len(s1), cap(s1), s1)
+	//fmt.Printf("s2 %p |%p,%d %d|,%v\n", &s2, &s2[0], len(s2), cap(s2), s2)
+	//s3 := s1[:]
+	//fmt.Printf("s3 %p |%p,%d %d|,%v\n", &s3, &s3[0], len(s3), cap(s3), s3)
+	////fmt.Printf("s2:%T\ns3:%T\n", s2, s3)
+	//fmt.Println("------------------------")
+	//s3[0] = 100
+	//fmt.Printf("s1 %p |%p,%d %d|,%v\n", &s1, &s1[0], len(s1), cap(s1), s1)
+	//fmt.Printf("s2 %p |%p,%d %d|,%v\n", &s2, &s2[0], len(s2), cap(s2), s2)
+	//fmt.Printf("s3 %p |%p,%d %d|,%v\n", &s3, &s3[0], len(s3), cap(s3), s3)
+	//fmt.Println("------------------------")
+	//s1[0] = 1000
+	//fmt.Printf("s1 %p |%p,%d %d|,%v\n", &s1, &s1[0], len(s1), cap(s1), s1)
+	//fmt.Printf("s2 %p |%p,%d %d|,%v\n", &s2, &s2[0], len(s2), cap(s2), s2)
+	//fmt.Printf("s3 %p |%p,%d %d|,%v\n", &s3, &s3[0], len(s3), cap(s3), s3)
+	//fmt.Println("------------------------")
+
+	s1 := make([]int, 3, 4)
+	s2 := append(s1, 1)
+	fmt.Printf("%p %p %d %d %v\n", &s1, &s1[0], len(s1), cap(s1), s1)
+	fmt.Printf("%p %p %d %d %v\n", &s2, &s2[0], len(s2), cap(s2), s2)
+
 }
 func main() {
 	//tc()

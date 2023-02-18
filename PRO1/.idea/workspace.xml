@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf5f702-bdc9-4cc1-885e-d829487d4c69" name="变更" comment="更改目录">
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/.idea/day3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/.idea/day4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
