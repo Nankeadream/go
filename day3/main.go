@@ -278,20 +278,21 @@ func sli() {
 	//fmt.Println(a1)
 
 }
-func main() {
-	//his()
-	sli()
-	//a1 := [...]int{10, 30, 50}
-	//fmt.Printf("a1: %v,%p\n", a1, &a1)
-	//a2 := a1
-	//fmt.Printf("a2: %v,%p\n", a2, &a2)
-	//fmt.Println("--------------------")
-	//a3 := showAddr(a1)
-	//fmt.Printf("a3_1: %v,%p\n", a3, &a3)
-	var s0 = []int{1, 3, 5, 7, 9}
-	fmt.Printf("%T %[1]v,%d %d\n", s0, len(s0), cap(s0))
-	var s1 []int
-	fmt.Println(s1, len(s1), cap(s1), &s1)
-	fmt.Printf("%p %[1]T\n", &s1)
-	print(s1)
-}
+
+//func main() {
+//	//his()
+//	sli()
+//	//a1 := [...]int{10, 30, 50}
+//	//fmt.Printf("a1: %v,%p\n", a1, &a1)
+//	//a2 := a1
+//	//fmt.Printf("a2: %v,%p\n", a2, &a2)
+//	//fmt.Println("--------------------")
+//	//a3 := showAddr(a1)
+//	//fmt.Printf("a3_1: %v,%p\n", a3, &a3)
+//	var s0 = []int{1, 3, 5, 7, 9}
+//	fmt.Printf("%T %[1]v,%d %d\n", s0, len(s0), cap(s0))
+//	var s1 []int
+//	fmt.Println(s1, len(s1), cap(s1), &s1)
+//	fmt.Printf("%p %[1]T\n", &s1)
+//	print(s1)
+//}

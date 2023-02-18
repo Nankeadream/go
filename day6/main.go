@@ -18,10 +18,11 @@ func (p *Point) getY() int {
 	return p.y
 }
 
-func main() {
-	p := Point{4, 5}
-	fmt.Println(p)
-	fmt.Println(p.getX(), (&p).getX())
-	fmt.Println("-----------")
-	fmt.Println(p.getY(), (&p).getY())
-}
+//
+//func main() {
+//	p := Point{4, 5}
+//	fmt.Println(p)
+//	fmt.Println(p.getX(), (&p).getX())
+//	fmt.Println("-----------")
+//	fmt.Println(p.getY(), (&p).getY())
+//}

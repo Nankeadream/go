@@ -81,46 +81,47 @@ func PrintTrianglev1(n int) {
 		fmt.Println()
 	}
 }
-func main() {
-	PrintTrianglev1(12)
-	//fmt.Println(calc(4, 5, func(a int, b int) int {
-	//	return a + b
-	//}))
-	//fmt.Println(calc(4, 5, func(a int, b int) int {
-	//	return a * b
-	//}))
-	//fmt.Println(calc2(4, 5, func(a int, b int) int {
-	//	return a + b
-	//}))
-	//fmt.Println(calc2(4, 5, func(a int, b int) int {
-	//	return a * b
-	//}))
-	//
-	//outer()
-	//outer2()
-	//var fn = outer3()
-	//fn()
-	//
-	//var i int8 = -3
-	//fmt.Println(i)
-	//var j uint8 = uint8(i)
-	//fmt.Println(j)
-	//for i := 0; i < 45; i++ {
-	//	fmt.Println(Fib0(i))
-	//}
-	//for i := 0; i < 100; i++ {
-	//	Fib2(uint(i))
-	//}
-	//fmt.Println(M)
-	//for i := 0; i < 12; i++ {
-	//	fmt.Println(Fib3(1, 1, i))
-	//}
-	//fmt.Println(Fib3(1, 1, 10))
-	//v := func(x, y int) int {
-	//	return x + y
-	//}(4, 5)
-	//fmt.Println(v)
-	//outer()
-	//fn := outer()
-	//fn()
-}
+
+//func main() {
+//PrintTrianglev1(12)
+//fmt.Println(calc(4, 5, func(a int, b int) int {
+//	return a + b
+//}))
+//fmt.Println(calc(4, 5, func(a int, b int) int {
+//	return a * b
+//}))
+//fmt.Println(calc2(4, 5, func(a int, b int) int {
+//	return a + b
+//}))
+//fmt.Println(calc2(4, 5, func(a int, b int) int {
+//	return a * b
+//}))
+//
+//outer()
+//outer2()
+//var fn = outer3()
+//fn()
+//
+//var i int8 = -3
+//fmt.Println(i)
+//var j uint8 = uint8(i)
+//fmt.Println(j)
+//for i := 0; i < 45; i++ {
+//	fmt.Println(Fib0(i))
+//}
+//for i := 0; i < 100; i++ {
+//	Fib2(uint(i))
+//}
+//fmt.Println(M)
+//for i := 0; i < 12; i++ {
+//	fmt.Println(Fib3(1, 1, i))
+//}
+//fmt.Println(Fib3(1, 1, 10))
+//v := func(x, y int) int {
+//	return x + y
+//}(4, 5)
+//fmt.Println(v)
+//outer()
+//fn := outer()
+//fn()
+//}

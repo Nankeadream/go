@@ -310,9 +310,10 @@ func test() {
 	fmt.Printf("%p %p %d %d %v\n", &s2, &s2[0], len(s2), cap(s2), s2)
 
 }
-func main() {
-	//tc()
-	//s()
-	//ds()
-	test()
-}
+
+//func main() {
+//	//tc()
+//	//s()
+//	//ds()
+//	test()
+//}
