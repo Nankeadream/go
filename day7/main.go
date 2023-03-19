@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"math"
+	"sort"
 )
 
 // Areaer 实现一个Area接口
@@ -68,29 +70,30 @@ func Area(a Areaer) float64 {
 	return a.area()
 }
 
-//func main() {
-//	shapes := []Areaer{
-//		NewTriangle(5, 5, 4),
-//		NewRound(3.14, 6),
-//		NewRectangle(5, 6),
-//		NewRectangle(10, 11),
-//		NewRectangle(20, 6),
-//	}
-//
-//	sort.Slice(shapes, func(i, j int) bool {
-//		return shapes[i].area() > shapes[j].area()
-//	})
-//
-//	// Print sorted results
-//	fmt.Println("从高到低排序:")
-//	for _, shape := range shapes {
-//		switch s := shape.(type) {
-//		case *Triangle:
-//			fmt.Printf("三角形: %.2f\n", s.area())
-//		case *Round:
-//			fmt.Printf("圆形: %.2f\n", s.area())
-//		case *Rectangle:
-//			fmt.Printf("长方形: %.2f\n", s.area())
-//		}
-//	}
-//}
+func main() {
+	shapes := []Areaer{
+		NewTriangle(5, 5, 4),
+		NewRound(3.14, 6),
+		NewRectangle(5, 6),
+		NewRectangle(10, 11),
+		NewRectangle(20, 6),
+	}
+
+	sort.Slice(shapes, func(i, j int) bool {
+		return shapes[i].area() > shapes[j].area()
+	})
+
+	// Print sorted results
+	fmt.Println("从高到低排序:")
+	for _, shape := range shapes {
+		switch s := shape.(type) {
+		case *Triangle:
+			fmt.Printf("三角形: %.2f\n", s.area())
+		case *Round:
+			fmt.Printf("圆形: %.2f\n", s.area())
+		case *Rectangle:
+			fmt.Printf("长方形: %.2f\n", s.area())
+		}
+	}
+
+}
