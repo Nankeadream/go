@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c09e85-3f1a-4ba7-9e89-e386d95d3000" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/../day10/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/calc/calc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/calc/minus/minus.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day10/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/encryptAndDecode/encryptAndDecode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/linkeTable/DoubleLinkedList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/linkeTable/SingleList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day9/.idea/day9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day9/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day9/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day9/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7.go" beforeDir="false" afterPath="$PROJECT_DIR$/week7.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day8/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day8/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../day8/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="03c09e85-3f1a-4ba7-9e89-e386d95d3000" name="变更" comment="提交文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="提交文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交文件" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

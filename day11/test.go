@@ -1,12 +1,9 @@
 package main
 
 import (
-	"bytes"
 	"day11/encryptAndDecode"
 	"fmt"
 	"github.com/rs/zerolog/log"
-	"io"
-	"os"
 )
 
 func main() {
@@ -60,12 +57,4 @@ func main() {
 	//padding1 := text[len(text)-1] // text中最后一个字节一定是补充的字节数
 	//fmt.Printf("明文:%x, %[1]s\n", text[:len(text)-int(padding1)])
 
-	var w io.Writer
-	w = os.Stdout
-	w = new(bytes.Buffer)
-	fmt.Printf("%T", w)
-	fmt.Println(w)
-	var rwc io.ReadWriteCloser
-	rwc = os.Stdout // OK: *os.File has Read, Write, Close methods
-	rwc = new(bytes.Buffer)
 }
